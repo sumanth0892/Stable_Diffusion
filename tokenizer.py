@@ -4,7 +4,7 @@ Convert the inputs into tokens for the attention mechanism, especially the text 
 import json
 import functools
 import regex as re
-from . import util
+import util
 import unicodedata
 from typing import List, Tuple
 
