@@ -1,5 +1,5 @@
 import torch
-from .. import util
+import util
 import numpy as np
 
 
