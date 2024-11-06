@@ -3,7 +3,7 @@ This script has the modules for the Clip Embeddings and the Clip Player
 """
 import torch
 from torch import nn
-from .attention import SelfAttention
+from attention import SelfAttention
 
 
 class CLIPEmbedding(nn.Module):
