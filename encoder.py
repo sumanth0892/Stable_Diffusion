@@ -5,7 +5,7 @@ The encoder compresses an input image and obtain latent representations for nois
 import torch
 from torch import nn
 from torch.nn import functional as F
-from .decoder import AttentionBlock, ResidualBlock
+from decoder import AttentionBlock, ResidualBlock
 
 
 class Encoder(nn.Module):
