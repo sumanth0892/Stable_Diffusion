@@ -3,8 +3,11 @@ This script loads a trained model checkpoint
 """
 import torch
 import warnings
-from . import util
-from . import Tokenizer, CLIP, Encoder, Decoder, Diffusion
+import util
+from clip import CLIP
+from encoder import Encoder
+from decoder import Decoder
+from diffusion import Diffusion
 
 def make_compatible(state_dict):
 	keys = list(state_dict.keys()); changed = False
