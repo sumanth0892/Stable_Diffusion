@@ -8,7 +8,9 @@ from tqdm import tqdm
 import util
 import model_loader
 from tokenizer import Tokenizer
-from samplers import KLMSSampler, KEulerSampler, KEulerAncestralSampler
+from k_lms import KLMSampler
+from k_euler import KEulerSampler
+from k_euler_ancestral import KEulerAncestralSampler
 
 
 def generate(
